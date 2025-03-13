@@ -4,11 +4,11 @@
 # It starts the specified program in the background with the given arguments, sets up a gdb_server on port 1234,
 # and then launches GDB with an initialization script to connect to the gdb_server and set a breakpoint at main.
 
-# Usage: ./gdbm.sh <program> [arguments...]
-# Example: ./gdbm.sh ./my_x86_program arg1 arg2
+# Usage: ./gdb_rosetta.sh <program> [arguments...]
+# Example: ./gdb_rosetta.sh ./my_x86_program arg1 arg2
 
 # To see this help message, run:
-# ./gdbm.sh -help
+# ./gdb_rosetta.sh -help
 
 # Check if the -help flag is provided
 if [ "$1" = "-help" ]; then
